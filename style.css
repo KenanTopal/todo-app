@@ -7,7 +7,7 @@
 body{
   height: calc(100vh - 100px);
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('./bg.jpg');
+  background-image: url('./pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -27,8 +27,7 @@ h1#title{
   text-align: center;
 }
 
-
-form#add-todo, section#todos-list{
+form#add-form, section#todos-list{
    margin-top: 20px;
   width: 100%;
   background-color: #e8e6e6;
@@ -37,7 +36,7 @@ form#add-todo, section#todos-list{
    box-shadow: 1px 1px 5px rgba(0,0,0,0.7); 
 }
 
-form#add-todo{
+form#add-form{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,8 +45,7 @@ form#add-todo{
 
 form input{
   display: inline-block;
-  width: 85%;
-  margin-bottom: 1rem;
+  width: 90%;
   height: 2.5rem;
   padding: 1rem;
   background-color: #fefefe;
@@ -85,7 +83,7 @@ section .card{
 }
 
 
-button#delete-btn, button#add-btn{
+button.delete-btn, button#add-btn{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +91,7 @@ button#delete-btn, button#add-btn{
   border: none;
 }
 
-button#delete-btn{
+button.delete-btn{
     background-color: red;
   width: 40px;
   height: 40px;
