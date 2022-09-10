@@ -92,7 +92,7 @@ button.delete-btn, button#add-btn{
 }
 
 button.delete-btn{
-    background-color: red;
+  background-color: red;
   width: 40px;
   height: 40px;
 }
