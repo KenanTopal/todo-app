@@ -5,14 +5,16 @@
 }
 
 body{
-  height: calc(100vh - 100px);
+  margin-top: 250px;
+  height: calc(100vh - 250px);
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('./pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg');
+  background-image: url('./greg-rosenke-6QnEf_b47eA-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 main{
+  
   max-width: 900px;
   margin: 100px auto;
   padding: 1.5rem;
@@ -25,6 +27,7 @@ main{
 h1#title{
   font-size: 4rem;
   text-align: center;
+  color:#e8e6e6;
 }
 
 form#add-form, section#todos-list{
@@ -101,4 +104,16 @@ button.delete-btn{
 span.delete-icon, span.add-icon{
   cursor: pointer;
   color: white;
+}
+
+#stats{
+  margin-top: 20px;
+  color: #e8e6e6;
+}
+
+.date{
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 50px;
+  color: #707070;
 }
