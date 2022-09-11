@@ -27,7 +27,7 @@ main{
 h1#title{
   font-size: 4rem;
   text-align: center;
-  color:#e8e6e6;
+  
 }
 
 form#add-form, section#todos-list{
